@@ -8,40 +8,121 @@
 </head>
 <body>
 <div class="container">
+	<ul id="dropdown1" class="dropdown-content">
+		<li><a href="#!">Vuelos</a></li>
+		<li><a href="#!">Hoteles</a></li>
+		<li><a href="#!">Excursiones</a></li>
+		<li><a href="#!">Visitas guiadas</a></li>
+		<li><a href="#!">Paquetes</a></li>
+	</ul>
 	<nav>
 		<div class="nav-wrapper">
 			<a href="#" class="brand-logo">Logo de la empresa</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Productos<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="login.html" class="active"><i class="material-icons left">person</i>Ingresar</a></li>
 				<li><a href="ayuda.html"><i class="material-icons left">help</i>Ayuda</a></li>
 			</ul>
 		</div>
 	</nav>
+	<h5>Landing page del sitio, un usuario sin registrar ingresaria a esta pagina y podria ver los productos mas abajo listados.</h5>
 </div>
-<footer class="page-footer">
-	<div class="container">
-		<div class="row">
-			<div class="col l6 s12">
-				<h5 class="white-text">Viajar Hoy Pagar Mañana</h5>
-				<p class="grey-text text-lighten-4">Diseño de interfaz para trabajo practico de Ingenieria de Software 2.</p>
-			</div>
-			<div class="col l4 offset-l2 s12">
-				<h5 class="white-text">Redes sociales</h5>
-				<ul>
-					<li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-					<li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-					<li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-				</ul>
-			</div>
+<br>
+<div class="carousel carousel-slider valing-wrapper center-align">
+	<div class="carousel-fixed-item center">
+		<a class="btn waves-effect white grey-text darken-text-2">VER!</a>
+    </div>
+    <div class="carousel-item green white-text" href="#one!">
+		<h1>OFERTA 1(titulo)</h1>
+		<h4>Los mejores vuelos encontralos aca!</h4>
+    </div>
+    <div class="carousel-item orange white-text" href="#one!">
+		<h1>OFERTA 2(titulo)</h1>
+		<h4>Tenemos los mejores hoteles al mejor precio!</h4>
+    </div>
+    <div class="carousel-item black white-text" href="#one!">
+		<h1>OFERTA 3(titulo)</h1>
+		<h4>Podemos llevarte a donde vos quieras!</h4>
+    </div>
+    <div class="carousel-item blue white-text" href="#one!">
+		<h1>OFERTA 4(titulo)</h1>
+		<h4>Buscas una excursion? Tenemos lo que buscas!</h4>
+    </div>
+</div>
+<br>
+<div class="container">
+	<div class="row center-align">
+		<div class="col s3">
+			<i class="large material-icons">airline_seat_individual_suite</i>
+			<h4>Producto 1</h4>
+			<p>Descripcion del producto</p>
+		</div>
+		<div class="col s3">
+	        <i class="large material-icons">add_a_photo</i>
+	        <h4>Producto 2</h4>
+			<p>Descripcion del producto</p>
+		</div>
+		<div class="col s3">
+	        <i class="large material-icons">ac_unit</i>
+	        <h4>Producto 3</h4>
+			<p>Descripcion del producto</p>
+		</div>
+		<div class="col s3">
+	        <i class="large material-icons">airplanemode_active</i>
+	        <h4>Producto 4</h4>
+			<p>Descripcion del producto</p>
 		</div>
 	</div>
-	<div class="footer-copyright">
+	<div class="row center-align">
+		<div class="col s3">
+			<i class="large material-icons">business</i>
+			<h4>Producto 5</h4>
+			<p>Descripcion del producto</p>
+		</div>
+		<div class="col s3">
+	        <i class="large material-icons">child_care</i>
+	        <h4>Producto 6</h4>
+			<p>Descripcion del producto</p>
+		</div>
+		<div class="col s3">
+	        <i class="large material-icons">cloud_queue</i>
+	        <h4>Producto 7</h4>
+			<p>Descripcion del producto</p>
+		</div>
+		<div class="col s3">
+	        <i class="large material-icons">crop_original</i>
+	        <h4>Producto 8</h4>
+			<p>Descripcion del producto</p>
+		</div>
+	</div>
+	<footer class="page-footer">
 		<div class="container">
-			© 2018 Copyright Text
-			<a class="grey-text text-lighten-4 right" href="#!">Rodrigo Hernandez</a>
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Viajar Hoy Pagar Mañana</h5>
+					<p class="grey-text text-lighten-4">Diseño de interfaz para trabajo practico de Ingenieria de Software 2.</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Redes sociales</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-	</div>
-</footer>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2018 Copyright Text
+				<a class="grey-text text-lighten-4 right" href="#!">Rodrigo Hernandez</a>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery.js" type="text/javascript"></script>
 <script src="js/materialize.js" type="text/javascript"></script>
+<script src="js/js.js" type="text/javascript"></script>
 </body>
 </html>
